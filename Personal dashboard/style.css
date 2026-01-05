@@ -1,0 +1,116 @@
+.opening_heading {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+
+  }
+
+.opening_text {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.task_label {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.input_container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#task_input {
+  padding: 5px 10px 5px 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid white;
+  font-size: 18px;
+  color: white;
+  background-color: transparent;
+}
+
+#task_input::placeholder {
+  color: white;
+}
+
+#task_input:focus {
+  outline: none;
+  border-bottom: 3px solid white;
+}
+
+#task_input:focus::placeholder {
+  color: white;
+}
+
+#submit_button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 3px solid white;
+  font-size: 15px;
+  color:white;
+  background-color: transparent;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+#submit_button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+
+#task_list li {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.list_container {
+  min-height: 200px;
+  width: 500px;
+  background-color: rgb(226, 91, 226);
+  border-radius: 15px;
+  box-shadow: 7px 7px 12px rgb(141, 141, 141);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input_box {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(226, 91, 226);
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 7px 7px 12px rgb(141, 141, 141);
+}
+
+.task_heading {
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 40px;
+}

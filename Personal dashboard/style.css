@@ -112,24 +112,25 @@ body {
   margin-top: 40px;
 }
 
-.right_input_side {
+#right_input_side {
   background-color:white;
   padding: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 40%;
 }
 
-.right_input_side, h1, p {
+#right_input_side, h1, p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.right_input_side h1 {
+#right_input_side h1 {
   font-size: 35px;
 }
 
-.right_input_side p {
+#right_input_side p {
   text-align: center;
 }
 
@@ -149,7 +150,21 @@ body {
   align-items: center;
     background-color: rgb(226, 91, 226);
     padding: 15px;
-    width: 50%;
+    width: 60%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+}
+
+#returnId {
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(226, 91, 226);
+  color: white;
+}
+
+#ReccomendationsId {
+  font-size: 17px;
+  line-height: 20px;
+  color: rgb(226, 91, 226);
 }
